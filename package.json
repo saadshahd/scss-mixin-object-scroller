@@ -1,6 +1,6 @@
 {
   "name": "scss-mixin-object-scroller",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A scss mixin to create your singletone scroller object",
   "main": "index.scss",
   "scripts": {

@@ -16,8 +16,8 @@ The object class terminology comes from [cssguidelin.es](https://cssguidelin.es/
 ##### Parameters
   - **$size:** `(unit) default: 6px`
   - **$bg:** `(color) default: #eee`
-  - **$fg**. `(color default: #333)`
-  - **$radius**. `(unit default: $size)`
+  - **$fg**. `(color) default: #333`
+  - **$radius**. `(unit) default: $size`
 
 ##### Examples
 

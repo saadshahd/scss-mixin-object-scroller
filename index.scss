@@ -1,0 +1,20 @@
+@mixin scroller($size: 6px, $bg: #eee, $fg: #333, $radius: $size) {
+  .scroller {
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: $size;
+      height: $size;
+    }
+
+    &::-webkit-scrollbar-track-piece {
+      background-color: $bg;
+    }
+
+    &::-webkit-scrollbar-thumb:horizontal,
+    &::-webkit-scrollbar-thumb:vertical {
+      border-radius: $radius;
+      background-color: $fg;
+    }
+  }
+}

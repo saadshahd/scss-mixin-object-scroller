@@ -1,6 +1,6 @@
 ### SCSS Object Scroller
 
-It takes a map of `key: value` or list and generates a set of **object** classes.
+It takes a set of [parameters](#parameters) generates a singletone **object** class.
 
 The object class terminology comes from [cssguidelin.es](https://cssguidelin.es/)
 
